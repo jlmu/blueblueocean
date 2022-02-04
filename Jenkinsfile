@@ -17,7 +17,7 @@ pipeline {
 
         stage('Edge') {
           steps {
-            echo 'Testing Edge...'
+            echo 'Testing Nioh 2...'
           }
         }
 
