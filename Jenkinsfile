@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echio 'building***'
+        echo 'building***'
       }
     }
 
@@ -17,7 +17,7 @@ pipeline {
 
         stage('Edge') {
           steps {
-            echo 'Testing Edge...'
+            echio 'Testing Edge...'
           }
         }
 
