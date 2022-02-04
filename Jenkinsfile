@@ -17,7 +17,7 @@ pipeline {
 
         stage('Edge') {
           steps {
-            echio 'Testing Edge...'
+            echo 'Testing Edge...'
           }
         }
 
